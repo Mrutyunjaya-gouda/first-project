@@ -12,7 +12,7 @@
     <p>This page uses frames. The current browser you are using does not support frames.</p>
     <?php
     
-  echo "Hello india!";
+  echo "Hello dwise!";
   
 	?>
     </body>
