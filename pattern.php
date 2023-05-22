@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Hello</title>
+<title>Insert title here</title>
 </head>
 <frameset>
     <frame>
@@ -11,9 +11,14 @@
     <body>
     <p>This page uses frames. The current browser you are using does not support frames.</p>
     <?php
-    
-  echo "Hello world";
-  
+  for($i=1; $i<=5; $i++)
+  {
+      for($j=1; $j<=$i; $j++)
+      {
+          echo "*";
+      }
+      echo "<br/>";
+  }
 	?>
     </body>
     </noframes>
